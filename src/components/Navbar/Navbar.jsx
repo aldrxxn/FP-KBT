@@ -55,7 +55,9 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <button className="primary-btn">Sign In</button>
+            <a href="https://dashboard-kbt.vercel.app/">
+              <button className="primary-btn">Sign In</button>
+            </a>
           </ul>
         </div>
         {/* Mobile Hamburger menu section */}
